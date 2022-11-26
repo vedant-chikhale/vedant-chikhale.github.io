@@ -1,6 +1,815 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>CityPASS</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto+Slab:400,700"
+		rel="stylesheet">
+	<link rel="icon" type="image/png" href="assets/images/logo/favicon.ico">
+
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/xsIcon.css">
+	<link rel="stylesheet" href="assets/css/isotope.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+
+	<link rel="stylesheet" href="assets/css/plugins.css" />
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link rel="stylesheet" href="assets/css/responsive.css" />
+
+	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+
+<style>
+	.btn-outline-primary:hover {
+		border-color: #e31939;
+    	border: none !important;
+    	background: #e31939 !important;
+	}
+	.btn:hover {
+		color: #fff;
+	}
+</style>
+
 <body>
-<h1>Hello World!</h1>
+	<div id="preloader">
+		<div class="spinner">
+			<div class="double-bounce1"></div>
+			<div class="double-bounce2"></div>
+		</div>
+	</div>
+
+	<header class="xs-header header-transparent xs-box">
+		<div class="container-md">
+			<nav class="xs-menus">
+				<!-- <div class="xs-top-bar clearfix">
+					
+					<ul class="xs-top-social">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+						<li><a href="#"><i class="fa fa-phone"></i></a></li>
+					</ul>
+					<a href=""
+						class="xs-top-bar-mail"><i class="fa fa-envelope-o"></i><span 
+						>NGO_email@gmail.com</span></a>
+				</div> -->
+				
+				
+				<div class="nav-header w-100 d-lg-none pr-3 ">
+					<div class="d-flex justify-content-between">
+
+						<a href="index.html" style="height:100px;" class="px-3 py-2 bg-white xs-box-shadow-2 rounded-bottom">
+							<img src="assets/images/logo/citypass_logo" style="height:80px;" alt="">
+						</a>
+	
+						<div class="nav-toggle">
+							<i class="iconify mb-1" data-icon="bx:menu"></i>
+						</div>
+
+					</div>
+					
+					
+
+				</div>
+
+				<div class="nav-menus-wrapper row">
+					<div class="col-lg-12 border-lg-bottom col-xl-12">
+						<div class="row">
+							<a class="col-lg-3 p-0 d-flex align-items-center bg-white" href="index.html">
+								<img src="assets/images/logo/citypass_logo" style="max-height:70px;" class="img-fluid" alt="logo">
+							</a>
+							<form class="col-lg-5 xs-volunteer-form" style="margin-top: 12px;">
+								<div class="row">
+									<div class="col-lg-10">
+										<input type="text" id="search" class="form-control" placeholder="Search" style="margin: 0px; color: #363637; border-radius: 25px;">
+									</div>
+									<div class="col-lg-2 p-0">
+										<ul class="nav-menu" style="text-align: left;">
+											<li><a href="#" style="padding: 19px 8px;"><span class="lnr lnr-earth"></span></a>
+												<ul class="nav-dropdown">
+													<li>
+														<a href="#">Language</a>
+														<ul class="nav-dropdown">
+															<li><a href="#">English</a></li>
+															<li><a href="#">Deutsch</a></li>
+															<li><a href="#">Español</a></li>
+															<li><a href="#">Français</a></li>
+															<li><a href="#">Italiano</a></li>
+															<li><a href="#">日本人</a></li>
+															<li><a href="#">Português</a></li>
+															<li><a href="#">中文</a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="#">Currency</a>
+														<ul class="nav-dropdown">
+															<li><a href="#">U.S. Dollar (USD)</a></li>
+															<li><a href="#">Canadian Dollar (CAD)</a></li>
+															<li><a href="#">Euro (EUR)</a></li>
+															<li><a href="#">British Pound (GBP)</a></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</form>
+							<ul class="col-lg-4 nav-menu">
+								<li><a href="#"><span class="lnr lnr-cart"></span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</nav>
+		</div>
+	</header>
+
+
+	<section class="xs-welcome-slider">
+		<div class="xs-banner-slider owl-carousel">
+			
+			<div class="xs-welcome-content" style="background-image: url('assets/images/cover/home.jpg');">
+				<div class="container">
+					<div class="xs-welcome-wraper color-white">
+					
+						<h2>Spend less. Experience more.™</h2>
+						<p>See Top Attractions.</p>
+						<div class="xs-btn-wraper text-center">
+							<div class="xs-btn-wraper text-center">
+								<a href="contact.html" class="btn btn-outline-primary mx-0 mx-3 mx-lg-3">
+									Contact Us
+								</a>
+								<a href="#destinations" class="btn btn-primary">
+									 Buy Now
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="xs-black-overlay"></div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="xs-section-padding py-2 py-5" style="background:#f9f9f9;" id="destinations">
+
+		<div class="container w-100 py-5">
+			<div class="xs-heading col-12 xs-mb-70 text-center mx-auto">
+				<h3 class="xs-mb-0  xs-title">CityPASS® Destinations</h3>
+				<p>Explore your next destination.</p>
+			</div>
+
+			<div class="row ">
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/atlanta.jpg" alt="atlanta">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">Atlanta</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/boston.jpg" alt="boston">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">Boston</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/chicago.jpg" alt="chicago">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">Chicago</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/dallas.jpg" alt="dallas">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">Dallas</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row ">
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/denver.jpg" alt="denver">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">Denver</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/houston.jpg" alt="Houston">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">Houston</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/newyork.jpg" alt="newyork">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">New York</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/orlando.jpg" alt="orlando">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">Orlando</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row ">
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/philadelphia.jpg" alt="philadelphia">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">Philadelphia</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/sandiego.jpg" alt="San Diego">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">San Diego</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/sanfrancisco.jpg" alt="San Francisco">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">San Francisco</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/seattle.jpg" alt="Seattle">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">Seattle</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row ">
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/southerncalifornia.jpg" alt="Southern California">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">Southern California</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/tampabay.jpg" alt="Tampa Bay">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="#" class="xs-post-title mb-2">Tampa Bay</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/destination/toronto.jpg" alt="Toronto">
+						</div>
+						<div class="xs-item-content" style="text-align: center;">
+							<a href="toronto.html" class="xs-post-title mb-2">Toronto</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<!-- <section class="xs-content-section-padding pt-5s" style="background:#f9f9f9;">
+		<div class="container">
+			<div class="xs-heading col-12 xs-mb-70 text-center mx-auto">
+				<h3 class="xs-mb-0  xs-title">Our focus area</h3>
+			</div>
+
+			<div class="row w-100 owl-carousel mx-0 xs-focus text-center">
+
+				<div class=" mb-5 text-center mx-3 text-lg-lexft ">
+					<div class="xs-service-promo">
+						<span class="icon-water color-purple"></span>
+						<h5>Pure Water</h5>
+						<p>663 million people drink dirty water. we help to access to clean water can improve health,
+							boost local economies.</p>
+					</div>
+				</div>
+				<div class=" mb-5 text-center mx-3 text-lg-lexft ">
+					<div class="xs-service-promo">
+						<span class="icon-water color-purple"></span>
+						<h5>Pure Water</h5>
+						<p>663 million people drink dirty water. we help to access to clean water can improve health,
+							boost local economies.</p>
+					</div>
+				</div>
+				<div class=" mb-5 text-center mx-3 text-lg-lexft ">
+					<div class="xs-service-promo">
+						<span class="icon-groceries color-purple"></span>
+						<h5>Food for all Children</h5>
+						<p>663 million people drink dirty water. Learn how access to clean water can improve health,
+							boost local economies.</p>
+					</div>
+				</div>
+				<div class=" mb-5 text-center mx-3 text-lg-lefxt ">
+					<div class="xs-service-promo">
+						<span class="icon-heartbeat color-purple"></span>
+						<h5>Medical Facilities</h5>
+						<p>663 million people drink dirty water. Learn how access to clean water can improve health,
+							boost local economies.</p>
+					</div>
+				</div>
+				<div class=" mb-5 text-center mx-3 text-lg-lefxt ">
+					<div class="xs-service-promo">
+						<span class="icon-open-book color-purple"></span>
+						<h5>Education for every child</h5>
+						<p>663 million people drink dirty water. Learn how access to clean water can improve health,
+							boost local economies.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="xs-section-padding py-2  pb-5" style="background:#f9f9f9;">
+		<span class="xs-separetor mb-5"></span>
+		
+		<div class="container ">
+			<div class="xs-heading pt-4 row xs-mb-60">
+				<div class="col-md-9 col-xl-9 text-center text-lg-left">
+					<h2 class="xs-title ">Latest Programme</h2>
+					<p>Explore our latest events and journals and how we keep the world save for children
+					</p>
+				</div>
+				<div class="col-xl-3 text-center text-lg-right col-md-3 xs-btn-wraper">
+					<a href="blog.html" class="btn btn-primary">View all</a>
+				</div>
+			</div>
+
+			<div class="row xs-mb-50">
+
+				<div class="col-12 mb-4">
+					<div class="xs-box-shadow xs-single-journal row mx-1 mb-5 ">
+
+						<div class="entry-thumbnail first-jounal col-lg-6 p-0"
+						style="background-image: url(https://1ngo.in/media/vanavil/photo_2022-06-21%2011.38.31.jpeg);">
+						</div>
+
+						<div class="d-flex flex-column-reverse px-0 mx-0 col-lg-6">
+
+							<div class="entry-header py-lg-3 pt-4">
+								<div class="entry-meta">
+									<span class="date">
+										<a rel="bookmark">
+											<b>Event</b>
+										</a>
+									</span>
+								</div>
+								<h4 class="entry-title">
+									<a href="#">Exploring the inner child: The gem unfolds</a>
+								</h4>
+								<p class="mt-2 pt-1">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+								</p>
+							</div>
+	
+							<span class="xs-separetor"></span>
+							<div class="post-meta meta-style-color">
+								
+								<span class="comments-link">
+									<i class="fa fa-calendar"></i>
+									<a href="#">3rd OCT 2020</a>
+								</span>
+								
+								
+							</div>
+
+						</div>
+						
+
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="xs-box-shadow xs-single-journal xs-mb-30">
+						<div class="entry-thumbnail ">
+							<img src="https://1ngo.in/media/vanavil/photo_2022-06-21%2011.38.31.jpeg" alt="">
+							<div class="post-author">
+								<span class="xs-round-avatar">
+									<img class="img-responsive" src="assets/images/logo.png" alt="">
+								</span>
+							</div>
+						</div>
+						<div class="entry-header">
+							<div class="entry-meta">
+								<span class="date">
+									<a rel="bookmark">
+										<b>Event</b>
+									</a>
+								</span>
+							</div>
+							<h4 class="entry-title">
+								<a href="#">Exploring the inner child: The gem unfolds</a>
+							</h4>
+						</div>
+						<span class="xs-separetor"></span>
+						<div class="post-meta meta-style-color">
+							<span class="comments-link">
+								<i class="fa fa-calendar"></i>
+								<a href="#">3rd OCT 2020</a>
+							</span>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="xs-box-shadow xs-single-journal xs-mb-30">
+						<div class="entry-thumbnail ">
+							<img src="https://1ngo.in/media/vanavil/PK-For%20Website-20190617-0262.jpg" alt="">
+						</div>
+						<div class="entry-header pb-3">
+							<div class="entry-meta">
+								<span class="date">
+									<a rel="bookmark">
+										<b>Journal</b>
+									</a>
+								</span>
+							</div>
+							<h4 class="entry-title">
+								<a href="#">2020 Expo summary: India and its horizon</a>
+							</h4>
+							<p class="mt-2 pt-1">
+								We believe that safety, freedom, trust and friendship are cornerstones . . .
+							</p>
+						</div>						
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="xs-box-shadow xs-single-journal xs-mb-30">
+						<div class="entry-thumbnail ">
+							<img src="https://images.pexels.com/photos/764681/pexels-photo-764681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+						</div>
+						<div class="entry-header pb-3">
+							<div class="entry-meta">
+								<span class="date">
+									<a rel="bookmark">
+										<b>Journal</b>
+									</a>
+								</span>
+							</div>
+							<h4 class="entry-title">
+								<a href="#">How to create a safe space for Children</a>
+							</h4>
+							<p class="mt-2 pt-1">
+								We believe that safety, freedom, trust and friendship are cornerstones . . .
+							</p>
+						</div>						
+					</div>
+				</div>
+
+				
+			</div>
+		</div>
+	</section> -->
+
+	
+
+
+	<!-- <section class="xs-section-padding py-5 my-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 pr-lg-5 ">
+					<div class="xs-feature-text-content">
+						<div class="xs-heading">
+							<h2>About Us</h2>
+							<h3 class="xs-title" data-title="About Us">We’ve funded 1,039 projects for 13 million
+								people around the world.</h3>
+							<span class="xs-separetor bg-bondiBlue"></span>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+							 sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+						</p>
+						<a href="about.html" class="btn btn-primary  ">Learn More</a>
+
+						
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-5 d-flex align-items-center ">
+					<div class="pl-lg-2 mb-2 col-md-12 p-0 xs-mb-30">
+						<img src="https://images.pexels.com/photos/2802368/pexels-photo-2802368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" class=" w-100 rounded">
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<section class="xs-section-padding py-2 py-5" style="background:#f9f9f9;" id="products">
+
+		<div class="container w-100 py-5">
+			<div class="xs-heading col-12 xs-mb-70 text-center mx-auto">
+				<h3 class="xs-mb-0  xs-title">Products</h3>
+				<p>Explore our products</p>
+			</div>
+
+			<div class="row ">
+
+				<div class="col-lg-4 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/causes/causes_4.jpg" alt="">
+							
+						</div>
+						<div class="xs-item-content">
+							
+							<a href="#" class="xs-post-title mb-2">Employ our refugees</a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+							</p>
+							<a class="font-weight-bold">Continue</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/causes/causes_4.jpg" alt="">
+							
+						</div>
+						<div class="xs-item-content">
+							
+							<a href="#" class="xs-post-title mb-2">Employ our refugees</a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+							</p>
+							<a class="font-weight-bold">Continue</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="xs-popular-item rounded rounded-2 xs-box-shadow">
+						<div class="xs-item-header">
+							<img class=" rounded" src="assets/images/portfolio/gallery_2.jpg" alt="">
+							
+						</div>
+						<div class="xs-item-content">
+							
+							<a href="#" class="xs-post-title mb-2">Buy our farmlands</a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+							</p>
+							<a class="font-weight-bold">Continue</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		
+			
+		</div>
+		
+	</section>
+
+	<div class="xs-funfact-section-v2 waypoint-tigger my-4" style="background-image: url('assets/images/map_green.png')" >
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-single-funFact funFact-v2">
+						<span class="number-percentage-count number-percentage" data-value="100"
+							data-animation-duration="3500">0</span><span>M</span>
+						<small>Fund Raised</small>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-single-funFact funFact-v2">
+						<span class="number-percentage-count number-percentage" data-value="90"
+							data-animation-duration="3500">0</span><span>%</span>
+						<small>Love Givens</small>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-single-funFact funFact-v2">
+						<span class="number-percentage-count number-percentage" data-value="100"
+							data-animation-duration="3500">0</span><span>m</span>
+						<small>Adopted Kids</small>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="xs-single-funFact funFact-v2">
+						<span class="number-percentage-count number-percentage" data-value="20"
+							data-animation-duration="3500">0</span><span>k</span>
+						<small>Events Held</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="xs-content-section-padding pt-5s">
+		<div class="container">
+			<div class="xs-heading col-12 xs-mb-70 text-center mx-auto">
+				<h3 class="xs-mb-0  xs-title">Testimonials</h3>
+				<p>Our sucess storeis and outreach</p>
+			</div>
+
+			<div class="row w-100 owl-carousel mx-0 xs-focus2 text-center">
+
+				<div class=" mb-5 text-center mx-3 text-lg-lexft ">
+					<div class="xs-service-promo">
+						
+						<div class="xs-round-avatar m-0 border ">
+							<img src="assets/images/portfolio/gallery_1.jpg" alt="">
+						</div>
+						<i class="iconify" data-icon=""></i>
+				
+						<p>
+							"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+							Duis aute irure dolor 
+							in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+						</p>
+						<h5 class="mt-4 mb-0">Daniel Omolola</h5>
+						<p>- CTO Agrisofa Limited</p>
+					</div>
+				</div>
+				
+				
+				
+			</div>
+		</div>
+
+	</section> -->
+
+	<section class="xs-feature-box-fulid mt-0">
+		<div class="container-fulid">
+			<div class="row xs-feature-box-wraper">
+				<div class="col-md-12 col-lg-4 xs-feature-box bg-white">
+					<div class="xs-feature-box-content">
+						<h3 class="text-dark">#CityPASS</h3>
+						<a href="#" class="text-dark pointer">Tag #citypass on your travel adventures and you might be featured as our #CPTraveler of the week!</a>
+						
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-4 xs-feature-box highlight bg-aqua">
+					<div class="xs-feature-box-content">
+						<h3 class="color-white">Explore, Enjoy, Experience</h3>
+						<iframe width="400" height="315" src="https://www.youtube.com/embed/Pca8B0iZENY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-4 xs-feature-box bg-white">
+					<div class="xs-feature-box-content">
+						<h3 class="text-dark">Connect with us on social media</h3>
+						<ul class="xs-social-list">
+							<li><a href="https://www.facebook.com/citypass"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.twitter.com/citypass"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.instagram.com/citypass"><i class="fa fa-instagram"></i></a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="xs-footer-section">
+		<div class="container">
+			<div class="xs-footer-top-layer">
+				<div class="row">
+
+					<div class="col-lg-5 col-md-6 footer-widget xs-pr-20">
+						<a href="index.html" class="xs-footer-logo">
+							<img src="assets/images/logo/citypass_logo" style="height:70px;" alt="">
+						</a>
+						<p>Spend less. Experience more.™</p>
+					</div>
+
+					<div class="col-lg-3 col-md-6 footer-widget">
+						<h3 class="widget-title">Links</h3>
+						<ul class="xs-footer-list">
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="blog.html">Blogs</a></li>
+							<li><a href="reviews.html">Reviews</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+							
+						</ul>
+					</div>
+					
+					<div class="col-lg-4 col-md-6 footer-widget">
+						<h3 class="widget-title">Contact Us</h3>
+						<ul class="xs-info-list">
+							<li><i class="fa fa-home bg-aqua"></i>123, Yonge-Dundas St. East, Toronto, ON.
+							</li>
+							<li><i class="fa fa-phone bg-aqua"></i>US & Canada: (888) 330-5008<br>
+								Direct: +1 (208) 787-4300<br>
+							</li>
+							<li><i class="fa fa-envelope-o bg-aqua"></i>
+								<a><span
+										class="__cf_email__">contact@citypass.com
+								</span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="xs-copyright">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="xs-copyright-text">
+							<p>&copy; 2022 powered by <a
+									href="#">MDM 11</a> </p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<nav class="xs-footer-menu">
+							<ul>
+								<li><a href="#">Terms and Condition</a></li>
+								
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="xs-back-to-top-wraper">
+			<a href="#" class="xs-back-to-top"><i class="fa fa-angle-up"></i></a>
+		</div>
+	</footer>
+
+
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/jquery.waypoints.min.js"></script>
+	<script src="assets/js/jquery.countdown.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"></script>
 </body>
+
 </html>
