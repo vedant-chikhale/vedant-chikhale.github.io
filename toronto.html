@@ -38,6 +38,19 @@
 	.btn:hover {
 		color: #fff;
 	}
+
+	.btn-secondary {
+		border-color: #363637;
+    	background: #fff !important;
+		color: #363637;
+	}
+
+	.btn-secondary:hover {
+		border-color: #363637;
+    	border: none !important;
+    	background: #363637 !important;
+		color: #fff;
+	}
 </style>
 
 <body>
@@ -55,7 +68,7 @@
 					<div class="d-flex justify-content-between">
 
 						<a href="index.html" style="height:100px;" class="px-3 py-2 bg-white xs-box-shadow-2 rounded-bottom">
-							<img src="assets/images/logo/citypass_logo" style="height:80px;" alt="">
+							<img src="assets/images/logo/citypass_logo" style="height:80px;" alt="logo">
 						</a>
 	
 						<div class="nav-toggle">
@@ -68,7 +81,7 @@
 
 				</div>
 
-				<div class="nav-menus-wrapper row">
+				<div class="nav-menus-wrapper row" id="top">
 					<div class="col-lg-12 border-lg-bottom col-xl-12">
 						<div class="row">
 							<a class="col-lg-3 p-0 d-flex align-items-center bg-white" href="index.html">
@@ -112,7 +125,7 @@
 								</div>
 							</form>
 							<ul class="col-lg-4 nav-menu">
-								<li><a href="#"><span class="lnr lnr-cart"></span></a>
+								<li id="addcartbtn"><a href="cart.html" id="cartbtn"><span class="lnr lnr-cart"></span></a>
 								</li>
 							</ul>
 						</div>
@@ -123,31 +136,22 @@
 		</div>
 	</header>
 
-
-	<section class="xs-welcome-slider">
-		<div class="xs-banner-slider owl-carousel">
-			
-			<div class="xs-welcome-content" style="background-image: url('assets/images/cover/toronto_cover.jfif');">
-				<div class="container">
-					<div class="xs-welcome-wraper color-white">
-					
-						<h2>Toronto CityPASS®</h2>
-						<p>See Top Attractions.</p>
-						<div class="xs-btn-wraper text-center">
-							<div class="xs-btn-wraper text-center">
-								<a href="contact.html" class="btn btn-outline-primary mx-0 mx-3 mx-lg-3">
-									Contact Us
-								</a>
-								<a href="#destinations" class="btn btn-primary">
-									 Buy Now
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="xs-black-overlay"></div>
+	<section class="xs-banner-inner-section parallax-window"
+		style="background-image:url('assets/images/cover/toronto_cover.jfif')">
+		<div class="xs-black-overlay"></div>
+		<div class="container">
+			<div class="color-white xs-welcome-wraper" style="text-align: center;">
+				<h2>Toronto CityPASS®</h2>
+				<p>Check Top Attractions in Toronto.</p>
 			</div>
-
+			<div class="xs-btn-wraper text-center">
+				<a href="contact.html" class="btn btn-outline-primary mx-0 mx-3 mx-lg-3">
+					Contact Us
+				</a>
+				<a href="#destinations" class="btn btn-primary">
+						Buy Now
+				</a>
+			</div>
 		</div>
 	</section>
 
@@ -167,6 +171,14 @@
 						</div>
 						<div class="xs-item-content" style="text-align: center;">
 							<a href="cntower.html" class="xs-post-title mb-2">CN Tower</a>
+							<div class="xs-btn-wraper text-center">
+								<a href="#top" class="btn btn-primary mx-0 mx-3 mx-lg-3 mb-3" id="cntower">
+										Add to Cart
+								</a>
+								<a href="cntower.html" class="btn btn-secondary">
+									Check Details
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -177,6 +189,14 @@
 						</div>
 						<div class="xs-item-content" style="text-align: center;">
 							<a href="aquarium.html" class="xs-post-title mb-2">Ripleys Aquarium</a>
+							<div class="xs-btn-wraper text-center">
+								<a href="#top" class="btn btn-primary mx-0 mx-3 mx-lg-3 mb-3" id="aquarium">
+										Add to Cart
+								</a>
+								<a href="aquarium.html" class="btn btn-secondary">
+									Check Details
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -187,6 +207,14 @@
 						</div>
 						<div class="xs-item-content" style="text-align: center;">
 							<a href="rom.html" class="xs-post-title mb-2">Royal Ontario Museum</a>
+							<div class="xs-btn-wraper text-center">
+								<a href="#top" class="btn btn-primary mx-0 mx-3 mx-lg-3 mb-3" id="rom">
+										Add to Cart
+								</a>
+								<a href="rom.html" class="btn btn-secondary">
+									Check Details
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -200,6 +228,14 @@
 						</div>
 						<div class="xs-item-content" style="text-align: center;">
 							<a href="zoo.html" class="xs-post-title mb-2">Toronto Zoo</a>
+							<div class="xs-btn-wraper text-center">
+								<a href="#top" class="btn btn-primary mx-0 mx-3 mx-lg-3 mb-3" id="zoo">
+										Add to Cart
+								</a>
+								<a href="zoo.html" class="btn btn-secondary">
+									Check Details
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -210,6 +246,14 @@
 						</div>
 						<div class="xs-item-content" style="text-align: center;">
 							<a href="casaloma.html" class="xs-post-title mb-2">Casa Loma</a>
+							<div class="xs-btn-wraper text-center">
+								<a href="#top" class="btn btn-primary mx-0 mx-3 mx-lg-3 mb-3" id="casaloma">
+										Add to Cart
+								</a>
+								<a href="zoo.html" class="btn btn-secondary">
+									Check Details
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -220,6 +264,14 @@
 						</div>
 						<div class="xs-item-content" style="text-align: center;">
 							<a href="osc.html" class="xs-post-title mb-2">Ontario Science Centre</a>
+							<div class="xs-btn-wraper text-center">
+								<a href="#top" class="btn btn-primary mx-0 mx-3 mx-lg-3 mb-3" id="osc">
+										Add to Cart
+								</a>
+								<a href="osc.html" class="btn btn-secondary">
+									Check Details
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -327,6 +379,164 @@
 			<a href="#" class="xs-back-to-top"><i class="fa fa-angle-up"></i></a>
 		</div>
 	</footer>
+
+	<script>
+		///////////Add to cart click events///////////
+		var btn1=document.querySelector("#cntower");
+        btn1.addEventListener("click", replaceCart);
+
+		var btn2=document.querySelector("#aquarium");
+        btn2.addEventListener("click", replaceCart);
+
+		var btn3=document.querySelector("#rom");
+        btn3.addEventListener("click", replaceCart);
+
+		var btn4=document.querySelector("#zoo");
+        btn4.addEventListener("click", replaceCart);
+
+		var btn5=document.querySelector("#casaloma");
+        btn5.addEventListener("click", replaceCart);
+
+		var btn6=document.querySelector("#osc");
+        btn6.addEventListener("click", replaceCart);
+
+		////////////Replace Cart Function////////////
+		count = 0;
+		function replaceCart(){
+            if (this.id == "cntower"){
+				var cntower = document.getElementById('cntower');
+				cntower.style.background = "#00FF00";
+				var cart = document.getElementById('cartbtn');
+				cart.parentNode.removeChild(cart);
+
+				count = count + 1;
+				var h = document.createElement("h2");
+				h.id="cartbtn";
+				var link = document.createElement("a");
+				link.href = 'cart.html';
+				link.textContent = count;
+				link.style.fontSize = "2rem";
+				link.style.color = "#e31939";
+				h.appendChild(link);
+
+				var addcartbtn = document.getElementById('addcartbtn');
+				addcartbtn.style.padding = "13px";
+				addcartbtn.appendChild(h);
+				alert("CN Tower is added to the cart");
+            }
+
+            else if (this.id == "aquarium"){
+				var aquarium = document.getElementById('aquarium');
+				aquarium.style.background = "#00FF00";
+				var cart = document.getElementById('cartbtn');
+				cart.parentNode.removeChild(cart);
+
+				count = count + 1;
+				var h = document.createElement("h2");
+				h.id="cartbtn";
+				var link = document.createElement("a");
+				link.href = 'cart.html';
+				link.textContent = count;
+				link.style.fontSize = "2rem";
+				link.style.color = "#e31939";
+				h.appendChild(link);
+
+				var addcartbtn = document.getElementById('addcartbtn');
+				addcartbtn.style.padding = "13px";
+				addcartbtn.appendChild(h);
+				alert("Ripley's Aquarium is added to the cart");
+            }
+
+            else if (this.id == "rom"){
+                var rom = document.getElementById('rom');
+				rom.style.background = "#00FF00";
+				var cart = document.getElementById('cartbtn');
+				cart.parentNode.removeChild(cart);
+
+				count = count + 1;
+				var h = document.createElement("h2");
+				h.id="cartbtn";
+				var link = document.createElement("a");
+				link.href = 'cart.html';
+				link.textContent = count;
+				link.style.fontSize = "2rem";
+				link.style.color = "#e31939";
+				h.appendChild(link);
+
+				var addcartbtn = document.getElementById('addcartbtn');
+				addcartbtn.style.padding = "13px";
+				addcartbtn.appendChild(h);
+				alert("Royal Ontario Museum is added to the cart");
+            }
+
+			else if (this.id == "zoo"){
+				var zoo = document.getElementById('zoo');
+				zoo.style.background = "#00FF00";
+				var cart = document.getElementById('cartbtn');
+				cart.parentNode.removeChild(cart);
+
+				count = count + 1;
+				var h = document.createElement("h2");
+				h.id="cartbtn";
+				var link = document.createElement("a");
+				link.href = 'cart.html';
+				link.textContent = count;
+				link.style.fontSize = "2rem";
+				link.style.color = "#e31939";
+				h.appendChild(link);
+
+				var addcartbtn = document.getElementById('addcartbtn');
+				addcartbtn.style.padding = "13px";
+				addcartbtn.appendChild(h);
+				alert("Toronto Zoo is added to the cart");
+            }
+
+			else if (this.id == "casaloma"){
+				var casaloma = document.getElementById('casaloma');
+				casaloma.style.background = "#00FF00";
+				var cart = document.getElementById('cartbtn');
+				cart.parentNode.removeChild(cart);
+
+				count = count + 1;
+				var h = document.createElement("h2");
+				h.id="cartbtn";
+				var link = document.createElement("a");
+				link.href = 'cart.html';
+				link.textContent = count;
+				link.style.fontSize = "2rem";
+				link.style.color = "#e31939";
+				h.appendChild(link);
+
+				var addcartbtn = document.getElementById('addcartbtn');
+				addcartbtn.style.padding = "13px";
+				addcartbtn.appendChild(h);
+				alert("Casa Loma is added to the cart");
+            }
+
+			else if (this.id == "osc"){
+				var osc = document.getElementById('osc');
+				osc.style.background = "#00FF00";
+				var cart = document.getElementById('cartbtn');
+				cart.parentNode.removeChild(cart);
+
+				count = count + 1;
+				var h = document.createElement("h2");
+				h.id="cartbtn";
+				var link = document.createElement("a");
+				link.href = 'cart.html';
+				link.textContent = count;
+				link.style.fontSize = "2rem";
+				link.style.color = "#e31939";
+				h.appendChild(link);
+
+				var addcartbtn = document.getElementById('addcartbtn');
+				addcartbtn.style.padding = "13px";
+				addcartbtn.appendChild(h);
+				alert("Ontario Science Centre is added to the cart");
+            }
+        }
+
+	</script>
 
 
 	<script src="assets/js/jquery-3.2.1.min.js"></script>

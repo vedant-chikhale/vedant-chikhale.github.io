@@ -128,7 +128,7 @@
 								</div>
 							</form>
 							<ul class="col-lg-4 nav-menu">
-								<li><a href="#"><span class="lnr lnr-cart"></span></a>
+								<li><a href="cart.html"><span class="lnr lnr-cart"></span></a>
 								</li>
 							</ul>
 						</div>
@@ -166,33 +166,33 @@
 				<div class="col-lg-6">
 					<div class="xs-contact-form-wraper">
 						<div class="xs-heading xs-mb-40">
-							<h2 class="xs-title">Contact Us</h2>
+							<h2 class="xs-title" id="xs-contact">Contact Us</h2>
 							<p>7 Days a Week, 9am-7pm Eastern Time</p>
 							<span class="xs-separetor v2"></span>
 						</div>
 						<form  class="xs-contact-form">
 							<div class="input-group">
-								<input type="text" name="name" id="xs-name" class="form-control"
+								<input type="text" id="xs-name" class="form-control"
 									placeholder="Enter Your Name.....">
 								<div class="input-group-append">
 									<div class="input-group-text"><i class="fa fa-user"></i></div>
 								</div>
 							</div>
 							<div class="input-group">
-								<input type="email" name="email" id="xs-email" class="form-control"
+								<input type="email" id="xs-email" class="form-control"
 									placeholder="Enter Your Email.....">
 								<div class="input-group-append">
 									<div class="input-group-text"><i class="fa fa-envelope-o"></i></div>
 								</div>
 							</div>
 							<div class="input-group massage-group">
-								<textarea name="massage" placeholder="Enter Your Message....." id="xs-massage"
+								<textarea placeholder="Enter Your Message....." id="xs-massage"
 									class="form-control" cols="30" rows="10"></textarea>
 								<div class="input-group-append">
 									<div class="input-group-text"><i class="fa fa-pencil"></i></div>
 								</div>
 							</div>
-							<button class="btn btn-success" type="submit" id="xs-submit">submit</button>
+							<a class="btn btn-success" href="#xs-contact" onclick="Validate()">submit</a>
 						</form>
 					</div>
 				</div>
@@ -307,6 +307,37 @@
 		</div>
 	</footer>
 
+	<script>
+		function Validate()
+		{
+			var mailformat = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+			var inputName = document.getElementById('xs-name');
+			var inputEmail = document.getElementById('xs-email');
+			var inputText = document.getElementById('xs-massage');
+			if(inputName.value == '')
+			{
+				inputName.style.border = "2px solid #e31939";
+				alert("You cannot keep the name field empty");
+			}
+			else if(!mailformat.test(inputEmail.value))
+			{
+				inputEmail.style.border = "2px solid #e31939";
+				alert("This is not a valid email address");
+				return false;
+			}
+			else if(inputText.value == '')
+			{
+				inputText.style.border = "2px solid #e31939";
+				alert("You cannot keep the message field empty");
+			}
+			else 
+			{
+				inputEmail.style.border = "2px solid #eee";
+				inputName.style.border = "2px solid #eee";
+				inputText.style.border = "2px solid #eee";
+			}
+		}
+	</script>
 
 	<script src="assets/js/jquery-3.2.1.min.js"></script>
 	<script src="assets/js/plugins.js"></script>
